@@ -1,21 +1,11 @@
 html,
 body{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
 }
 
-.container {
-    width: 500px;
-    margin: 0 auto;
-    border:2px solid black;
-}
-
-h1, p {
+h1, h2, p {
     margin-top: 0;
-}
-
-header {
-    padding: 30px;
-    background-color: #FFE600;
 }
 
 h1 {
@@ -29,20 +19,68 @@ p {
 }
 
 a {
-    color: #FFE600;
+    color: #FFE600; 
+    font-weight: 800;   
 }
 
+header, 
 section {
-    padding: 30px;
+    padding: 50px;
+}
+
+header {
+    background-color: #FFE600;
+    color: black;
 }
 
 .one {
-    background-color: black;    
+    background-color: black; 
+    color: white;   
 }
 
-.one h2, .one p{
-    color: white;
+.two p {
+    color: rgb(92, 90, 90);
 }
+
+.black-link {
+    color: black;
+}
+
+
+/* Buttons  */
+
+.btn {
+    padding: 15px 37.5px;
+    text-decoration: none;
+    font-weight: bold;
+    display:inline-block;
+    margin-right: 8px;
+}
+
+.btn-accent {
+    background-color: #FFE600;
+    color: black;
+}
+
+.btn-accent:hover {
+    background-color: white;
+}
+
+.btn-dark {
+    background-color: black;  
+    color: #FFE600;  
+}
+
+.btn-dark:hover {
+    background-color: #FFE600;
+    color: black;
+}
+
+
+
+
+
+
 
 
 
